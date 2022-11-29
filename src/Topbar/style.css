@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.active_class {
+  color: grey;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  position: fixed;
+  border-radius: 10px;
+  z-index: 999;
+}
+.link {
+  flex: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.linkItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  float: right;
+  margin-top: 0;
+}
+.topImg {
+  width: 50px;
+  height: 46px;
+  border-radius: 50%;
+  padding: 0;
+  object-fit: cover;
+  animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.topRight {
+  flex: 3;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.head {
+  padding-top: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.head span {
+  color: red;
+}

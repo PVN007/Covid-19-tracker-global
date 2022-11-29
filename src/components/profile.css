@@ -1,0 +1,41 @@
+h4 {
+  padding-top: 150px;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.card {
+  background-color: rgba(149, 243, 196, 0.569);
+  width: 250px;
+  text-align: center;
+  height: 250px;
+  transition: 0.5s;
+}
+.card img {
+  margin-bottom: 20px;
+  margin-left: 55px;
+  margin-top: 5px;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text {
+  background-color: #fff;
+
+  /* padding-bottom: 30px; */
+}
+.card:hover {
+  transform: translate(0, -50px);
+  background: gold;
+}
+.text h3 p {
+  padding-top: 0;
+}
